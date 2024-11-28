@@ -1,0 +1,144 @@
+.helper-card {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    border-radius: 0%;
+    overflow: hidden;
+}
+  
+.helper-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+  
+hr {
+    border: 5px solid #000;
+    margin: 10px 0;
+}
+  
+.helper-card-description-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 1;
+    overflow: auto;
+}
+  
+.helper-card-description {
+    flex: 1;
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.5;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+.helper-card-description.expanded {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.helper-card-description::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.helper-card-description::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+  
+.helper-card-description::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+  
+.description-toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.description-toggle {
+    background: none;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+  
+.helper-card-contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+.helper-card-phone {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+}
+  
+.helper-card-location {
+    font-size: 1rem;
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+  
+.helper-card-status {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+  
+.bg-color-donation-orange {
+    background-color: #ff7a00;
+}
+  
+.bg-color-light-grey {
+    background-color: #ccc;
+}
+  
+.weather-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.weather-modal-content {
+    background-color: #fff;
+    color: #000;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    border-radius: 0%;
+}
+  
+.weather-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}  

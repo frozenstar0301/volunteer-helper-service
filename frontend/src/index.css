@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.helper-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.helper-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bg-color-donation-orange {
+  background-color: #ff9800;
+  color: white;
+}
+
+.bg-color-light-grey {
+  background-color: #f0f0f0;
+  color: black;
+}

@@ -1,0 +1,13 @@
+.helper-service-page {
+    padding: 20px;
+}
+
+.helper-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 25px;
+}
+  
